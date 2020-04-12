@@ -11,4 +11,4 @@ from main import do_stuff
 
 
 def test_thing():
-    assert do_stuff() == 1
+    assert do_stuff() == 2
