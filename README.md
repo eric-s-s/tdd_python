@@ -7,3 +7,5 @@ set up with python 3.11, but you _should_ be able to use most anything.
 3. pre-commit install
 4. per-commit install-hooks
 5. git checkout -b new-branch-for-session
+
+testing
