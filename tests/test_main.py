@@ -7,6 +7,8 @@
 # f2 to next error
 # alt-enter   fix problem
 
+from source.main import do_stuff
 
-def do_stuff():
-    return 1
+
+def test_thing():
+    assert do_stuff() == 2
