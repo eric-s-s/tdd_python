@@ -7,7 +7,7 @@
 # f2 to next error
 # alt-enter   fix problem
 
-from main.main import do_stuff
+from source.main import do_stuff
 
 
 def test_thing():
