@@ -7,4 +7,3 @@ if pytest ; then
 fi
 git reset --hard
 git status
-
