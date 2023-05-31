@@ -6,9 +6,13 @@
 # clrl-alt-l/o   auto lint. auto fix imports
 # f2 to next error
 # alt-enter   fix problem
+import pytest
 
-from source.main import do_stuff
+
+def fizzbuzz(number):
+    pass
 
 
-def test_thing():
-    assert do_stuff() == 2
+@pytest.mark.parametrize("number,expected", [(5, "1,2,fizz,4,buzz")])
+def test_thing(number, expected):
+    assert fizzbuzz(number) == expected
